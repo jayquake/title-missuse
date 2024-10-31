@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Title Missuse</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Title Missuse</h1>
+    <h3>Success Example 1: Clear Button Label</h3>
+<button id="success-rule-1">Learn More About Us</button>
+</br>
+
+<h3>Success Example 2: Image with Accessible Alt Text</h3>
+<img id="success-rule-2" src="team.jpg" alt="Our dedicated team working on a project">
+</br>
+
+<h3>Success Example 3: Tooltip with Visible Text</h3>
+<button id="success-rule-3" aria-describedby="tooltip-1">Info</button>
+<div id="tooltip-1" role="tooltip">Click here to view details about our services.</div>
+</br>
+
+<h3>Success Example 4: Descriptive Link Text</h3>
+<a id="success-rule-4" href="/services">Explore Our Services</a>
+</br>
+
+<h3>Success Example 5: Form Label Explanation</h3>
+<label for="email" id="success-rule-5">Email Address (required)</label>
+<input type="email" id="email" name="email">
+</br>
+
+<h3>Success Example 6: Clear Heading Structure</h3>
+<h2 id="success-rule-6">Our Services</h2>
+<p>Explore the wide range of services we offer to our clients.</p>
+
+<hr>
+<h3>Failure Example 1: Title Attribute for Button Information</h3>
+<button id="failure-rule-1" title="Learn more about us">More Info</button>
+</br>
+
+<h3>Failure Example 2: Title Attribute for Image Description</h3>
+<img id="failure-rule-2" src="team.jpg" title="Our team at work">
+</br>
+
+<h3>Failure Example 3: Title Attribute for Tooltip</h3>
+<button id="failure-rule-3" title="View service details">Info</button>
+</br>
+
+<h3>Failure Example 4: Title Attribute on Link</h3>
+<a id="failure-rule-4" href="/services" title="Explore our services page">Services</a>
+</br>
+
+<h3>Failure Example 5: Title Attribute for Form Field Description</h3>
+<label for="email" id="failure-rule-5" title="Enter your email address">Email</label>
+<input type="email" id="email" name="email">
+</br>
+
+<h3>Failure Example 6: Title Attribute for Heading Explanation</h3>
+<h2 id="failure-rule-6" title="Information about services offered">Services</h2>
+  </body>
+</html>
